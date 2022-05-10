@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-A-Sketch</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main id="container">
+      <header class="header">
+        <span>Etch-a-Sketch</span>
+      </header>
+      <div id="no-of-pxl">Select your Pixels</div>
+      <div id="pixel-buttons">
+        <button id="pxl-btn" class="pixel-16" value="16">16 x 16</button>
+        <button id="pxl-btn" class="pixel-32" value="32">32 x 32</button>
+        <button id="pxl-btn" class="pixel-64" value="64">64 x 64</button>
+      </div>
+
+      <div id="content-container">
+        
+
+        <div id="menu-holder">
+          <button id="btn" class="black-color">BLACK</button>
+          <button id="btn" class="random-color">Random Color</button>
+          <button id="btn" class="eraser">Eraser</button>
+          <button id="btn" class="reset">Reset</button>
+        </div>
+        <div id="grid-holder">
+          
+        </div>
+      </div>
+      <footer class="footer">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          obliviscaris2
+        </p>
+        <a href='https://github.com/obliviscaris2' target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </footer
+    </main>
+  </body> 
+  <script src="../js/app.js"></script>
+</html>
